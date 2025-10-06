@@ -149,6 +149,7 @@ body:after {
     color: rgba(var(--dark-color), 1);
 }
 
+/* цвет текста */
 .b-input label {
     color: rgba(var(--dark-color), 1);
     display: block;
@@ -161,6 +162,7 @@ body:after {
     position: relative;
 }
 
+/* цвет вкладок под никнеймом */
 .b-link,
 .b-mention,
 .b-mention:before,
@@ -204,6 +206,7 @@ header.head .misc {
     pointer-events: none;
 }
 
+/* цвет заголовков */
 header.head h2,
 header.head h1 {
     border-bottom: none;
@@ -212,16 +215,19 @@ header.head h1 {
     display: block;
 }
 
+/* цвет описания аниме */
 .b-prgrph,
 .b-spoiler_prgrph {
     color: rgba(var(--light-color), 1);
 }
 
+/* цвет смотрю, планы и т.д. */
 .b-db_entry-note .name-container .note .relation,
 .b-db_entry-note .name-container .note .additional {
     color: rgba(var(--dark-color), 1) !important;
 }
 
+/* кнопка смотреть онлайн */
 .b-link_button {
     background-color: rgba(var(--buttoms-color), 0.7) !important;
     color: rgba(var(--white-color), 1) !important;
@@ -245,10 +251,12 @@ header.head h1 {
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
 }
 
+/* инфо-описание */
 .line .value {
     color: rgba(var(--light-color), 1) !important;
 }
 
+/* инфо тег */
 .line .key {
     color: rgba(var(--dark-color), 1) !important;
     font-weight: bold;
@@ -258,6 +266,7 @@ textarea {
     border: none !important;
 }
 
+/* нет комментариев */
 .b-nothing_here {
     color: rgba(var(--dark-color), 1);
 }
@@ -279,10 +288,12 @@ textarea {
     box-shadow: none !important;
 }
 
+/* история-время */
 .p-profiles .profile-head .c-history .entry .misc.date {
     color: rgba(var(--dark-color), 1) !important;
 }
 
+/* история-история */
 .p-profiles .profile-head .c-history .entry .misc {
     color: rgba(var(--bright-color), 1) !important;
     text-overflow: clip !important;
@@ -304,6 +315,7 @@ textarea {
     color: #f2ddcc;
 }
 
+/* кнопка "Отложено" на страничке аниме*/
 .b-add_to_list.on_hold .trigger,
 .b-add_to_list.on_hold .option {
     background: #864e13;
@@ -311,6 +323,7 @@ textarea {
     color: #ebeef1;
 }
 
+/* кнопка "Запланировано" на страничке аниме*/
 .b-add_to_list.planned .trigger,
 .b-add_to_list.planned .option {
     background: #173969;
@@ -318,6 +331,7 @@ textarea {
     color: #cfe0ec;
 }
 
+/* кнопка "Смотрю" на страничке аниме*/
 .b-add_to_list.watching .trigger,
 .b-add_to_list.watching .option {
     background: #382f7b;
@@ -325,6 +339,7 @@ textarea {
     color: #d8f8f6;
 }
 
+/* кнопка "Пересмотравиваю" на страничке аниме*/
 .b-add_to_list.rewatching .trigger,
 .b-add_to_list.rewatching .option {
     background: #115652;
@@ -358,6 +373,7 @@ textarea {
     min-width: 225px;
 }
 
+/* надпись красным "Удалить из списка" */
 .b-add_to_list .expanded-options .remove-trigger .text {
     color: #ffa09e;
 }
@@ -366,6 +382,7 @@ textarea {
     border-radius: 7px;
 }
 
+/* жанр, ссылка на него */
 .tags > *,
 .line .b-tag,
 .tags .b-tag,
@@ -488,6 +505,7 @@ a.b-anime_status_tag.studio:hover:before {
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
 }
 
+/* жанр, ссылка на него d ghjcjvnht hfcrhsdftittujcz fybv */
 .p-user_rates-index .list-lines tr td .episodes_total:after,
 .p-user_rates-index .list-lines tr td .episodes_total:before {
     color: rgba(var(--hover-color), 1);
@@ -503,6 +521,7 @@ a.b-anime_status_tag.studio:hover:before {
     color: rgba(var(--hover-color), 1);
 }
 
+/* напрямую, хронология франшиза */
 .b-options-floated a,
 .b-options-floated .link {
     font-size: 13px;
@@ -519,6 +538,8 @@ a.b-anime_status_tag.studio:hover:before {
     display: none;
 }
 
+/* цвет кликабельных текстов на блоках как Авторы, Избранное и т.д. */
+/* Цвета шкал от темного до светлого - сверху вниз */
 .bar.simple .bar.s3 {
     background: rgba(var(--small-rating), 1);
     transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
@@ -562,6 +583,7 @@ a.b-anime_status_tag.studio:hover:before {
     background: rgba(var(--hover-color), 1);
 }
 
+/* цвет никнеймов */
 a .title span {
     color: rgba(var(--white-color), 1);
     transition: 0.2s all;
@@ -608,6 +630,7 @@ a:hover .title span {
     color: rgba(var(--hover-color), 1) !important;
 }
 
+/* цвет кнопки троеточие у описания аниме */
 .p-animes-show .other-names.click-loader span,
 .p-mangas-show .other-names.click-loader span,
 .p-ranobe-show .other-names.click-loader span {
@@ -652,6 +675,7 @@ a:hover .title span {
     background-color: rgba(var(--hover-buttoms-2), 1);
 }
 
+/* загрузить еще комментарии */
 .b-comments .comments-loader,
 .b-comments .comments-hider,
 .b-comments .comments-expander,
@@ -669,6 +693,7 @@ a:hover .title span {
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.05) !important;
 }
 
+/* когда наводишь на загрузку*/
 .b-comments .comments-loader:hover,
 .b-comments .comments-hider:hover,
 .b-comments .comments-expander:hover,
@@ -691,6 +716,7 @@ a:hover .title span {
     border: none;
 }
 
+/* цвет рейтенга текста */
 .b-rate .score-notice {
     color: rgba(var(--dark-color), 1);
 }
@@ -699,12 +725,14 @@ a:hover .title span {
     color: rgba(var(--light-color), 1);
 }
 
+/* цвет значка отзыв */
 .locale-ru .b-summary_marker:before {
     background-color: #1a421d;
     border: rgba(var(--block-color), 0.4);
     color: #c4e9ed;
 }
 
+/* цвет значка оффтоп */
 .locale-ru .b-offtopic_marker.off:before,
 .locale-ru .b-offtopic_marker.active.off:before {
     color: #f6e5ec;
@@ -736,6 +764,7 @@ a:hover .title span {
     color: #f6e5ec;
 }
 
+/* открываюшееся при наводке на героя окно */
 .tooltip-inner {
     background: none repeat scroll 0 0 rgba(var(--menu-back), 0.9);
     border: none;
@@ -744,6 +773,7 @@ a:hover .title span {
     border-radius: 12px;
 }
 
+/* цвета аниме шкалы */
 .b-stats_bar .bar .third {
     background: rgba(var(--time-empty), 1);
     opacity: 0.7;
@@ -759,6 +789,7 @@ a:hover .title span {
     opacity: 0.7;
 }
 
+/* цвета манга шкалы */
 .b-stats_bar.manga .bar .first {
     background: rgba(var(--manga-complete), 1);
     opacity: 0.7;
@@ -769,6 +800,7 @@ a:hover .title span {
     opacity: 0.7;
 }
 
+/* название аниме в списке моем */
 .p-user_rates-index .list-lines tr .name a {
     color: rgba(var(--white-color), 1);
 }
@@ -786,10 +818,12 @@ a:hover .title span {
     transition: 0.1s ease-out, -webkit-0 .1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, min-height 0s;
 }
 
+/* оценки справа в аниме */
 .bar.horizontal .line .x_label {
     color: rgba(var(--light-color), 1);
 }
 
+/* текст отзывы, комментарии и т.д. под вкладкой У аниме: */
 .b-db_entry > .c-about .additional-links .line-container > .link,
 .b-db_entry > .c-about .additional-links .line-container > a {
     color: rgba(var(--bright-color), 1);
@@ -800,6 +834,7 @@ a:hover .title span {
     color: rgba(var(--hover-color), 1);
 }
 
+/* закрашенные звезды */
 .b-rate .stars.score {
     color: rgba(var(--white-color), 1);
 }
@@ -810,14 +845,17 @@ a:hover .title span {
     margin-top: 8px;
 }
 
+/* при наводке звезды */
 .b-rate .stars.hover {
     color: #e7a61d;
 }
 
+/* пустые звезды */
 .b-rate .stars.background {
     color: rgba(var(--white-color), 0.2);
 }
 
+/* список аниме и манги */
 .b-stats_bar a.title {
     color: rgba(var(--white-color), 1);
 }
@@ -828,12 +866,14 @@ a:hover .title span {
     background: none;
 }
 
+/* под списком кол-во просмотреных прочитанных и т.д. */
 .b-stats_bar .stat_names .stat_name a,
 .b-stats_bar .stat_names .stat_name .size:before,
 .b-stats_bar .stat_names .stat_name .size:after {
     color: rgba(var(--dark-color), 1);
 }
 
+/* под списком кол-во просмотреных прочитанных и т.д. */
 .b-stats_bar .stat_names .stat_name a:hover {
     color: rgba(var(--hover-color), 1);
 }
@@ -868,6 +908,7 @@ a:hover .title span {
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1) !important;
 }
 
+/* цвет кнопки написать */
 .b-form input[type="submit"],
 .b-shiki_editor.previewed footer .unpreview,
 .b-poll .poll-actions .vote,
@@ -944,12 +985,14 @@ a.start.b-button:hover,
     color: white;
 }
 
+/* полоса оттеняющая, если не развернуто */
 .b-height_shortener .shade {
     background-image: none;
     height: 30px;
     z-index: 0;
 }
 
+/* слово развернуть */
 .b-height_shortener .expand {
     color: rgba(var(--bright-color), 1);
 }
@@ -958,16 +1001,19 @@ a.start.b-button:hover,
     color: rgba(var(--hover-color), 1);
 }
 
+/* под шкалой в профиле сколько пробыл на сайте */
 .bar.vertical .line .x_label {
     color: #5b6ad7;
 }
 
+/* Поиск по названию в списке аниме */
 input {
     color: rgba(var(--light-color), 1);
     border: rgba(var(--block-color), 0.4);
     background: rgba(var(--block-color), 0.4);
 }
 
+/* свернуть списки в списке аниме */
 .b-options-floated .action {
     color: rgba(var(--bright-color), 1);
     border: none;
@@ -1016,6 +1062,7 @@ input {
     color: rgba(var(--hover-color), 1);
 }
 
+/* справа выборы фильтров в списке аниме */
 .b-block_list li {
     color: rgba(var(--light-color), 1);
     transition: 0.1s ease-out, -webkit-0 .1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
@@ -1023,6 +1070,7 @@ input {
     font-family: "Comfortaa", sans-serif;
 }
 
+/* сводка по разным спискам  */
 .p-user_rates-index .list-groups .summary.lines {
     color: rgba(var(--dark-color), 1);
 }
@@ -1037,6 +1085,7 @@ input {
     color: rgba(var(--hover-color), 1) !important;
 }
 
+/* оценка, эпизоды и т.д. столбики */
 .p-user_rates-index .l-content .order-control {
     color: rgba(var(--dark-color), 1);
 }
@@ -1045,6 +1094,7 @@ input {
     color: rgba(var(--hover-color), 1);
 }
 
+/* стрелка назад */
 header.head h1 a.back:before,
 header.head h2 a.back:before {
     color: rgba(var(--white-color), 1);
@@ -1059,6 +1109,7 @@ header.head a.misc:hover {
     color: rgba(var(--hover-color), 1);
 }
 
+/* цвет тегов в настройки -уведомления*/
 .b-table th {
     color: rgba(var(--white-color), 1);
 }
@@ -1086,6 +1137,7 @@ a.name:hover {
     font-size: 13px !important;
 }
 
+/* название в новостях */
 .b-message > .inner header .name-date a.name {
     color: rgba(var(--white-color), 1);
 }
@@ -1155,6 +1207,7 @@ tr.user_rate.selectable.editable:after {
     color: rgba(var(--hover-color), 1);
 }
 
+/* знак в новостях эпизод*/
 .b-anime_status_tag.episode:before {
     background: #3d249e;
     color: #e9f1f3;
@@ -1921,7 +1974,7 @@ header.head a.misc:hover {
     font-size: 14px;
     border: none !important;
 }
-
+/* Цвет кнопок тесктового редактора в состоянии hover */
 .buttons .editor-italic:hover:before,
 .buttons .editor-spoiler:hover:before,
 .buttons .editor-smiley:hover:before,
@@ -2268,6 +2321,7 @@ code.b-code_inline {
     color: rgba(var(--hover-color), 1);
 }
 
+/* history-yeah */
 .p-profiles .profile-head .c-history .entry:hover,
 .p-topics .l-menu .reviews .entry:hover,
 .p-topics .l-menu .clubs .entry:hover {
@@ -2545,6 +2599,10 @@ a:-webkit-any-link {
 .b-image img {
     vertical-align: top;
     transition: 0s ease, transform 0.3s, opacity 0.25s ease, filter 0.25s ease;
+}
+
+img {
+    -webkit-filter: brightness(0.9);
 }
 
 .b-separator.inline {
@@ -3199,18 +3257,20 @@ p {
     padding: 8px 20px 6px !important;
 }
 
+/*на Телефоне_контент вылизал фикс > Test*/
 .p-dashboards-show .v2 .db-updates {
     overflow: hidden;
 }
 
+/*на Телефоне_контент вылизал фикс > Test*/
 .p-dashboards-show .v2 .db-updates .inner,
 .p-dashboards-show .v2 .db-updates .inner > .db-update {
     margin-bottom: 0;
 }
-
+/*Новый тех ред > убрать кнопку Скрыть*/
 .b-shiki_editor-v2 footer .hide {
     display: none!important;
-}
+} /*Новый тех ред */
  .p-topics-index .b-shiki_editor-v2 footer .hide {
     display: inline-block!important;
 }

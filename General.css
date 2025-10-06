@@ -1,51 +1,50 @@
-@import url("https://meinchik.github.io/ShikStyle/File1.css");
-@import url("https://meinchik.github.io/ShikStyle/File2.css");
-@import url("https://meinchik.github.io/ShikStyle/File3.css");
-@import url("https://meinchik.github.io/ShikStyle/File4.css");
-@import url("https://meinchik.github.io/ShikStyle/File5_Form.css");
-@import url("https://meinchik.github.io/ShikStyle/File6_ActivityGraph.css");
-@import url("https://meinchik.github.io/ShikStyle/File7_AlterMenu.css");
+@import url("https://raw.githubusercontent.com/meinchik/ShikStyle/master/File1.css");
+@import url("https://raw.githubusercontent.com/meinchik/ShikStyle/master/File2.css");
+@import url("https://raw.githubusercontent.com/meinchik/ShikStyle/master/File3.css");
+@import url("https://raw.githubusercontent.com/meinchik/ShikStyle/master/File4.css");
+@import url("https://raw.githubusercontent.com/meinchik/ShikStyle/master/File5.css");
+
 body:after {
-  background-image: url(""); /*картинка фона*/
+  background-image: url("");
 }
 
 .l-footer:after {
-  content: "*Небывалое настоящее*";
+  content: "*123*";
 }
 
 @media screen and (min-width: 1200px) {
   #profiles_show .profile-head::after {
-    background-image: url(""); /*картинка шапки*/
+    background-image: url("");
   }
 }
 
 @media screen and (min-width: 1px) {
   html:root {
-    --white-color: 223, 240, 255;
-    --light-color: 195, 216, 232;
-    --dark-color: 139, 189, 214;
-    --bright-color: 113, 196, 228;
-    --dull-color: 91, 129, 162;
-    --input-color: 86, 123, 156;
-    --hover-bottoms-1: 13, 50, 90;
-    --buttoms-color: 27, 74, 121;
+    --white-color: 215, 225, 255;
+    --light-color: 172, 194, 234;
+    --dark-color: 133, 157, 214;
+    --bright-color: 131, 178, 255;
+    --dull-color: 104, 117, 152;
+    --input-color: 72, 105, 156;
+    --hover-bottoms-1: 20, 31, 64;
+    --buttoms-color: 25, 38, 72;
     --hover-buttoms-2: 156, 98, 25;
-    --very-high-rating: 104, 166, 206;
-    --high-rating: 73, 139, 181;
-    --average-rating: 40, 101, 138;
-    --small-rating: 19, 76, 111;
-    --time-filled: 34, 100, 140;
-    --time-empty: 12, 59, 103;
+    --very-high-rating: 92, 116, 185;
+    --high-rating: 66, 88, 173;
+    --average-rating: 36, 56, 115;
+    --small-rating: 21, 35, 76;
+    --time-filled: 33, 56, 123;
+    --time-empty: 12, 22, 58;
     --anime-inprocess: 69, 146, 76;
     --anime-complete: 41, 107, 47;
     --manga-inprocess: 189, 15, 86;
     --manga-complete: 153, 0, 62;
     --hover-color: 210, 137, 45;
     --shadows-color: 89, 134, 181;
-    --block-color: 21, 73, 119;
-    --menu-back: 20, 45, 82;
-    --nick-cover: 19, 103, 160;
-    --popup-color: 26, 63, 102;
+    --block-color: 28, 42, 84;
+    --menu-back: 18, 23, 37;
+    --nick-cover: 37, 60, 138;
+    --popup-color: 27, 41, 84;
     --hundred: 1;
   }
 }

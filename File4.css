@@ -1306,6 +1306,11 @@
         transition: none;
     }
 
+    /*.p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left {
+      width: 100%;
+      margin: 28% auto 13.25rem auto;
+      top: 14.45rem;
+    }*/
     .p-profiles .cc-2a > .c-column {
         width: 48% !important;
         margin: 0 1% !important;
@@ -1594,7 +1599,8 @@
         font-size: 11px !important;
         display: block;
         padding: 6px 15px 10px 15px;
-        margin: 0;
+        margin: 0 ;
+        vertical-align: middle;
         white-space: normal;
         height: 58px;
     }
@@ -1756,6 +1762,7 @@
         content: "\f0ec";
     }
 
+    /* SOVMEST */
     .b-stats_bar.anime .compatibility a:before {
         font-size: 26px;
         color: rgba(var(--anime-inprocess), var(--hundred));
@@ -1775,6 +1782,8 @@
     .b-stats_bar .compatibility .text.weak:before {
         position: absolute;
     }
+
+    /* размещение значков совметсимости 768 px<*/
     .b-stats_bar.anime .compatibility a:before,
     .b-stats_bar.anime .compatibility .text.zero:before,
     .b-stats_bar.anime .compatibility .text.weak:before,
@@ -3088,6 +3097,8 @@
     }
 }
 
+
+/*Блок Отзывы > в разработке*/
 .b-reviews_navigation .navigation-container {
     height: 28px;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
@@ -3131,11 +3142,13 @@
 .b-reviews_navigation .navigation-node-positive .count,
 .b-reviews_navigation .navigation-node-neutral .count,
 .b-reviews_navigation .navigation-node-negative .count {
+    /*Положительные,Нейтральные,Отрицательные...Размер текста в скобках*/
     padding-top: 0.2rem;
     font-size: 13px;
 }
 
 .b-reviews_navigation .navigation-node {
+    /*Отзывы > Размер текста*/
     font-size: 13px;
 }
 
@@ -3166,17 +3179,20 @@
 
 .b-reviews_navigation a.navigation-node.is-active:hover .label span,
 .b-reviews_navigation a.navigation-node.is-active .label span {
+    /*Все Отзывы >чёрточка off*/
     text-decoration: none;
 }
 
 .b-reviews_navigation .navigation-node-positive .label:before,
 .b-reviews_navigation .navigation-node-neutral .label:before,
 .b-reviews_navigation .navigation-node-negative .label:before {
+    /*Иконки > off*/
     display: none;
 }
 
 .b-reviews_navigation .navigation-node .count:before,
 .b-reviews_navigation .navigation-node .count:after {
+    /*Скобки*/
     display: none;
 }
 
@@ -3393,11 +3409,15 @@
          visibility: hidden;
    }
 }
+/*---------*/
+
 
 #profiles_show .b-achievement.is-badge:hover:after {
     visibility: hidden;
 }
 
+
+/* Код Cosmo */
 @media screen and (min-width: 50px) {
     .about .b-catalog_entry,
     .about .b-catalog_entry:last-child {
@@ -3419,6 +3439,7 @@
         pointer-events: all;
         background: linear-gradient(transparent 0 , rgba(var(--block-color), 0.25)) !important;
         box-shadow: 0 2px 6px 2px #00000030;
+        -webkit-transition: box-shadow 0.25s ease;
     }
 
     .about .b-catalog_entry .cover:hover {
@@ -3493,6 +3514,10 @@
     }
 }
 
+/* ----------- */
+
+
+/*выключить повторные всплывающие постеры*/
 #profiles_show .tooltip-inner {
     width: 450px;
 }
@@ -3508,6 +3533,8 @@
     margin-left: 0;
 }
 
+/*--------*/
+
 .Ssylki-anime span,
 .Ssylki-anime-v-1 span,
 .Ssylki-anime-v-1-standard span,
@@ -3522,6 +3549,8 @@
     font-size: 0;
 }
 
+/*--------*/
+/*1*/
 .about .Blok-0 {
     display: block;
     text-align: center;
@@ -3703,6 +3732,7 @@
     pointer-events: all;
     background: none !important;
     box-shadow: none !important;
+    -webkit-transition: none;
 }
 
 .about .Animes_Mangas .b-catalog_entry .cover:hover {
@@ -3756,6 +3786,10 @@
     }
 }
 
+/*-------------------------------*/
+
+
+/*Стандарт*/
 .about .Blok-1 {
     display: block;
     text-align: center;
@@ -3936,6 +3970,7 @@
     pointer-events: all;
     background: none !important;
     box-shadow: none !important;
+    -webkit-transition: none;
 }
 
 .about .Animes_Mangas-1 .b-catalog_entry .cover:hover {
@@ -4010,6 +4045,10 @@
 
     }
 }
+
+
+/*-------------------------------*/
+
 
 .Ssylki-anime-v-1-standard-blok-1 {
     position: relative;
@@ -4287,6 +4326,9 @@ div.Ssylki-anime-v-1-standard:hover .progress-standard {
     }
 }
 
+/*-------------------------------*/
+
+
 .Ssylki-anime-v-1-blok-1 {
     position: relative;
     margin: 0;
@@ -4552,6 +4594,9 @@ div.Ssylki-anime-v-1:hover .progress {
         margin: 5px 0.37% 3.5rem 0.37%;
     }
 }
+
+/*-------------------------------*/
+
 
 .magnet {
     margin-top: 1.5rem;
@@ -4901,6 +4946,8 @@ div.Ssylki-anime:hover .Text-2 {
     }
 }
 
+
+/*------*/
 .k-0-1 .b-catalog_entry .cover {
     margin: 0;
     padding: 0;
@@ -5067,6 +5114,7 @@ div.Ssylki-anime:hover .Text-2 {
     transform: scale(1.025);
 }
 
+/*------*/
 @media screen and (min-width: 50px) {
     .Anime-v-0-1 {
         width: calc(100% / 1 - 1 * 1%);
@@ -5108,3 +5156,5 @@ div.Ssylki-anime:hover .Text-2 {
         width: calc(100% / 8 - 1 * 1%);
     }
 }
+
+/*------*/
